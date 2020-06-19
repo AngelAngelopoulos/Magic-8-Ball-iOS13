@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		22E30532249C90EB00E52286 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E30531249C90EB00E52286 /* RoundButton.swift */; };
+		22E30534249C92C500E52286 /* LabelFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22E30533249C92C500E52286 /* LabelFrame.swift */; };
 		AD7D68C622B8EB54009C798B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = AD7D68C522B8EB54009C798B /* README.md */; };
 		ADE1FB4422B3A4B100DD2BD6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */; };
 		ADE1FB4622B3A4B100DD2BD6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADE1FB4522B3A4B100DD2BD6 /* SceneDelegate.swift */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		22E30531249C90EB00E52286 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
+		22E30533249C92C500E52286 /* LabelFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelFrame.swift; sourceTree = "<group>"; };
 		AD7D68C522B8EB54009C798B /* README.md */ = {isa = PBXFileReference; explicitFileType = net.daringfireball.markdown; fileEncoding = 4; path = README.md; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.markdown; };
 		ADE1FB4022B3A4B100DD2BD6 /* Magic 8 Ball.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Magic 8 Ball.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -59,10 +63,12 @@
 		ADE1FB4222B3A4B100DD2BD6 /* Magic 8 Ball */ = {
 			isa = PBXGroup;
 			children = (
+				22E30531249C90EB00E52286 /* RoundButton.swift */,
 				ADE1FB4322B3A4B100DD2BD6 /* AppDelegate.swift */,
 				ADE1FB4522B3A4B100DD2BD6 /* SceneDelegate.swift */,
 				ADE1FB4722B3A4B100DD2BD6 /* ViewController.swift */,
 				ADE1FB4922B3A4B100DD2BD6 /* Main.storyboard */,
+				22E30533249C92C500E52286 /* LabelFrame.swift */,
 				ADE1FB4C22B3A4B300DD2BD6 /* Assets.xcassets */,
 				ADE1FB4E22B3A4B300DD2BD6 /* LaunchScreen.storyboard */,
 				ADE1FB5122B3A4B300DD2BD6 /* Info.plist */,
@@ -142,6 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				22E30534249C92C500E52286 /* LabelFrame.swift in Sources */,
+				22E30532249C90EB00E52286 /* RoundButton.swift in Sources */,
 				ADE1FB4822B3A4B100DD2BD6 /* ViewController.swift in Sources */,
 				ADE1FB4422B3A4B100DD2BD6 /* AppDelegate.swift in Sources */,
 				ADE1FB4622B3A4B100DD2BD6 /* SceneDelegate.swift in Sources */,
